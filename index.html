@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/estilos.css">
+
+  <title>Sandra Lopez</title>
+
+
+  <!-- Código https://fontawesome.com para iconos de redes sociales en el footer -->
+  <script src="https://kit.fontawesome.com/2ebc501450.js" crossorigin="anonymous"></script>
+
+
+  <!-- font menu -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- font seccion1 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asset&family=Chela+One&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Song+Myung&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- contacto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Song+Myung&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+  <!-- cursos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Song+Myung&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+<body>
+  <header>
+
+    <!-- ********************************************************************** -->
+    <!--  INICIO BARRA DE NAVEGACIÓN ejemplo  2  -->
+    <div class="menu-desplegado-oculto" id="menu-desplegado">
+      <div class="menu-desplegado">
+       <!-- <div class="desplegado-logo" id="desplegado-logo">
+          <img src="img/LOGO fll.png" alt="" style="height: 30px; width: 35px;">
+        </div>-->
+        <ul class="nav-enlaces-desplegado colapse" id="nav-enlaces-desplegado">
+          <button class="button-desplegado" onclick="colapsarMenu();"><i class="fa-solid fa-arrow-left fa-2xl"
+              style="color: #ffffff;"></i></button>
+          <li><a href=""><i class="fa-solid fa-house fa-sm" style="color: #ffffff;"></i><span
+                class="arsenal-sc-regular">HOME</span></a></li>
+          <li><a href=""><i class="fa-solid fa-bell fa-sm" style="color: #ffffff;"></i><span
+                class="arsenal-sc-regular">SERVICIOS</span></a></li>
+          <li><a href=""><i class="fa-solid fa-rocket fa-sm" style="color: #ffffff;"></i><span
+                class="arsenal-sc-regular">PROYECTOS</span></a></li>
+          <li><a href=""><i class="fa-solid fa-wand-magic-sparkles fa-sm" style="color: #ffffff;"></i><span
+                class="arsenal-sc-regular">HABILIDADES</span></a></li>
+          <li><a href=""><i class="fa-solid fa-envelope fa-sm" style="color: #ffffff;"></i><span
+                class="arsenal-sc-regular">CONTACTO</span></a></li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-colapsado-activo"   id="menu-colapsado">
+      <div class="menu-colapsado">
+      <!--  <div class="colapsado-logo" id="colapsado-logo"> 
+          <img src="img/LOGO fll.png" alt="" style="height: 30px; width: 35px;">
+        </div>-->
+        <ul class="nav-enlaces-colapsado raleway-menu colapse" id="nav-enlaces-colapsado">
+          <button class="button-colapsado" onclick="desplegarMenu();"><i
+              class="fa-solid fa-arrow-left fa-rotate-180 fa-2xl" style="color: #ffffff;"></i></button>
+          <li><a href=""><i class="fa-solid fa-house fa-lg" style="color: #ffffff;"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-bell fa-lg" style="color: #ffffff;"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-rocket fa-lg" style="color: #ffffff;"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-wand-magic-sparkles fa-lg" style="color: #ffffff;"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--  FIN BARRA DE NAVEGACIÓN ejemplo  2  -->
+  <!-- ********************************************************************** -->
+
+
+
+
+  <!--  -->
+  <section class="section1-presentacion" id="section1-presentacion">
+    <div class="img-personal">
+      <!--  -->
+      <!--  -->
+      <div class='planeta1'></div>
+      <div class='planeta2'></div>
+      <div class='planeta'>
+        <div class="rocket">
+          <!-- cohete -->
+          <svg width="163px" height="163px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="07---Migration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Artboard" transform="translate(-333.000000, -59.000000)" fill-rule="nonzero">
+                <g id="Group-3"
+                  transform="translate(370.500000, 84.000000) rotate(45.000000) translate(-370.500000, -84.000000) translate(350.000000, 49.000000)">
+                  <path
+                    d="M20.2611213,56.0890909 C28.6271974,56.1343694 36.1052102,61.3169003 39.0847576,69.1345455 C42.4407841,60.7158107 39.7979614,51.0923198 32.6129695,45.5683811 C25.4279776,40.0444424 15.4485201,39.9637187 8.17510817,45.3707038 C0.901696259,50.7776888 -1.89645886,60.3571677 1.32293946,68.8290909 C4.41291985,61.0902174 11.9283451,56.0344777 20.2611213,56.0890909 L20.2611213,56.0890909 Z"
+                    id="Path" fill="#657EFF"></path>
+                  <path
+                    d="M25.5938485,42.0636364 L25.4793031,56.8145455 C31.7130116,58.5286368 36.7624212,63.100974 39.0847576,69.1345455 C41.2204407,63.7700463 40.9690926,57.7496734 38.3936896,52.5818602 C35.8182867,47.414047 31.1628598,43.5884665 25.5938485,42.0636364 L25.5938485,42.0636364 Z"
+                    id="Path" fill="#314DFF"></path>
+                  <path
+                    d="M20.2611213,58.7236364 C22.6864496,58.7410546 25.0946463,59.131689 27.4011213,59.8818182 C31.1258204,52.0689936 33.0358631,43.5151348 32.988394,34.86 C33.1156667,19.6763636 28.1265758,6.50363636 20.7447576,9.59232693e-14 C13.2738485,6.36363636 8.01748491,19.4727273 7.94112127,34.6563636 C7.74703936,43.30931 9.51357931,51.893998 13.108394,59.7672727 C15.4242539,59.0513022 17.8372349,58.6992302 20.2611213,58.7236364 Z"
+                    id="Path" fill="#5670F6"></path>
+                  <path
+                    d="M20.7574849,9.9475983e-14 C20.7574849,9.9475983e-14 20.7574849,9.9475983e-14 20.7574849,9.9475983e-14 L20.2611213,58.7236364 L20.2611213,58.7236364 C22.6864496,58.7410546 25.0946463,59.131689 27.4011213,59.8818182 C31.1258204,52.0689936 33.0358631,43.5151348 32.988394,34.86 C33.128394,19.6763636 28.1393031,6.50363636 20.7574849,9.9475983e-14 Z"
+                    id="Path" fill="#415DF1"></path>
+                  <path
+                    d="M20.6429395,14.3436364 C23.7993031,14.3436364 26.8793031,14.5090909 29.8829395,14.7381818 C28.1402402,9.13105528 24.9999744,4.05932897 20.7574849,-3.64153152e-14 C16.4333667,3.9882607 13.196447,9.01227556 11.3520304,14.5981818 C14.4065758,14.42 17.4993031,14.3436364 20.6429395,14.3436364 Z"
+                    id="Path" fill="#4462FF"></path>
+                  <path
+                    d="M20.6938485,0.0636363636 L20.5793031,14.3436364 L20.5793031,14.3436364 C23.7356667,14.3436364 26.8156667,14.5090909 29.8193031,14.7381818 C28.0947898,9.13766584 24.9768116,4.066572 20.7574849,-3.64153152e-14 C20.7303627,0.01433912 20.7081877,0.0365141744 20.6938485,0.0636363636 Z"
+                    id="Path" fill="#304BF5"></path>
+                  <path
+                    d="M20.4393031,40.1163636 C18.8229395,42.7890909 17.6774849,48.2490909 17.6265758,54.5490909 C17.5756667,60.8490909 18.6320304,66.3345455 20.1720304,69.0327273 C21.788394,66.36 22.9338485,60.9127273 22.9847576,54.6 C23.0356667,48.2872727 22.0047576,42.8145455 20.4393031,40.1163636 Z"
+                    id="Path" fill="#657EFF"></path>
+                  <path
+                    d="M20.3629395,40.2436364 L20.1338485,68.9054545 C20.1338485,68.9054545 20.1338485,68.9945455 20.1974849,69.0327273 C21.8138485,66.36 22.9593031,60.9127273 23.0102122,54.6 C23.0611213,48.2872727 22.0047576,42.8145455 20.4647576,40.1163636 L20.3629395,40.2436364 Z"
+                    id="Path" fill="#304BF5"></path>
+                  <path
+                    d="M20.4774849,34.7073799 C16.5905548,34.6790558 13.4624304,31.5052378 13.4905795,27.6183072 C13.5187286,23.7313766 16.6924921,20.6031969 20.5794232,20.6312782 C24.4663543,20.6593595 27.5945894,23.8330684 27.5665758,27.72 C27.5315765,31.6041674 24.3617521,34.7284647 20.4774849,34.7073799 Z"
+                    id="Path" fill="#304BF5"></path>
+                  <path
+                    d="M20.5793031,22.8327273 C17.8802575,22.8117234 15.6752064,24.9826759 15.6541476,27.6817211 C15.6330888,30.3807663 17.8039964,32.5858615 20.5030412,32.6069752 C23.202086,32.628089 25.4072253,30.4572262 25.4284629,27.7581818 C25.4425464,25.06183 23.2755469,22.8607046 20.5793031,22.8327273 L20.5793031,22.8327273 Z"
+                    id="Path" fill="#FFFFFF"></path>
+                  <path
+                    d="M20.5920304,20.7072727 L20.5156667,20.7072727 L20.5156667,22.8581818 L20.5920304,22.8581818 C23.2911966,22.8792691 25.4622085,25.0844702 25.4411213,27.7836364 C25.420034,30.4828026 23.2148329,32.6538145 20.5156667,32.6327273 L20.4393031,32.6327273 L20.4393031,34.7709091 L20.5156667,34.7709091 C24.2847662,34.6323328 27.2746715,31.5472858 27.2951507,27.7756953 C27.31563,24.0041047 24.3594028,20.8867711 20.5920304,20.7072727 L20.5920304,20.7072727 Z"
+                    id="Path" fill="#304BF5"></path>
+                  <path
+                    d="M25.428394,27.7581818 C25.4419599,26.4609745 24.9378815,25.2118688 24.0277615,24.2874162 C23.1176415,23.3629636 21.8765641,22.8394306 20.5793031,22.8327273 L20.5029395,22.8327273 L20.4265758,32.6073417 L20.5029395,32.6073417 C23.1992912,32.6214251 25.4004167,30.4544256 25.428394,27.7581818 L25.428394,27.7581818 Z"
+                    id="Path" fill="#EBEBFF"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="plamya1">
+          <!-- plasma 1 -->
+          <svg width="80px" height="90px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+            <title>Triangle</title>
+            <desc>Created with Sketch.</desc>
+            <g id="07---Migration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+              <g id="Artboard" transform="translate(-325.000000, -308.000000)" fill="#E14B51">
+                <g id="Group-2"
+                  transform="translate(331.085786, 318.707107) rotate(45.000000) translate(-331.085786, -318.707107) translate(320.085786, 310.207107)">
+                  <path
+                    d="M12.0977182,15.4937892 L19.7290587,3.86507984 C20.3350879,2.94160681 20.0777488,1.7017003 19.1542758,1.09567113 C18.8282885,0.881742006 18.4468774,0.767766953 18.0569629,0.767766953 L4.4663777,0.767766953 C3.3618082,0.767766953 2.4663777,1.66319745 2.4663777,2.76776695 C2.4663777,3.1576815 2.58035275,3.5390926 2.79428188,3.86507984 L10.4256224,15.4937892 C10.728637,15.9555257 11.3485902,16.0841952 11.8103267,15.7811807 C11.9247867,15.7060663 12.0226039,15.6082492 12.0977182,15.4937892 Z"
+                    id="Triangle"></path>
+                </g>
+              </g>
+            </g>
+        </div>
+        <div class="plamya2">
+          <!-- plasma 2 -->
+          <svg width="70px" height="60px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="07---Migration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.7">
+              <g id="Artboard" transform="translate(-330.000000, -311.000000)" fill="#E14F4B">
+                <g id="Group-2"
+                  transform="translate(331.085786, 318.707107) rotate(45.000000) translate(-331.085786, -318.707107) translate(320.085786, 310.207107)">
+                  <path
+                    d="M12.1225968,9.46466052 L15.4786266,3.78522558 C16.0405534,2.83427239 15.7251853,1.60784078 14.7742321,1.0459139 C14.4660789,0.863823372 14.1147056,0.767766953 13.7567735,0.767766953 L8.76656709,0.767766953 C7.66199759,0.767766953 6.76656709,1.66319745 6.76656709,2.76776695 C6.76656709,3.125699 6.86262351,3.47707238 7.04471403,3.78522558 L10.4007438,9.46466052 C10.6817072,9.94013711 11.294923,10.0978212 11.7703996,9.81685774 C11.9156248,9.73104286 12.036782,9.60988569 12.1225968,9.46466052 Z"
+                    id="Triangle"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <!--  -->
+      <!--  -->
+    </div>
+
+    <div class="presentacion" id="presentacion">
+      <div class="presentacion-titulo oswald-presentacion" id="presentacion-titulo">
+        <span class="mellamo">Hola! </span><span class="mellamo"> Me llamo</span><span class="nombre">Sandra
+          Lopez</span>
+        <span class="mellamo">Soy programadora.</span>
+      </div>
+    </div>
+
+  </section>
+  <!--  -->
+
+
+  <!--  -->
+  <!-- ********************************************************************** -->
+  <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+
+  <!-- ********************************************************************** -->
+  <section class="section6-de-mi" id="section6-de-mi">
+
+    <!-- titulo -->
+    <div class="-sobre-mi">
+      <div class="wrapper wrapper-sobre-mi">
+        <h1 class="glitch kanit-regular titulos">SOBRE MI</h1>
+      </div>
+    </div>
+
+    <div class="sobre-mi-texto roboto-mono-titulo">
+      <p>¡Hola!, me llamo Lesly, y soy programadora web con más de 5 años de experiencia. Me destaco en
+        «estas» habilidades.</p>
+      <p>Desarrollador web, crea y mantiene los sitios web de. También idea herramientas
+        internas que facilitan y mejoran los procesos. Es experto en desarrollo FrontEnd y
+        en la optimización del rendimiento web, áreas en las que constantemente busca innovar
+        para ofrecer la mejor experiencia online.</p>
+      <p>Apasionada por la creación de sitios web, así como la creación de contenidos de alto nivel.</p>
+    </div>
+    <div class="sobre-mi-enlaces">
+      <a href="https://www.linkedin.com/in/sandra-lopez-creativa/"><i class="fa-brands fa-youtube fa-2xl"
+          style="color: #ff0000;"></i></a>
+      <a href="https://www.youtube.com/@f-u-t-u-r-o-s-a-n-d-r-a"><i class="fa-brands fa-linkedin fa-2xl"
+          style="color: #0091ff;"></i></a>
+      <a href="https://www.youtube.com/@f-u-t-u-r-o-s-a-n-d-r-a"><i class="fa-brands fa-github fa-2xl"
+          style="color: #ffffff;"></i></i></a>
+    </div>
+
+  </section>
+  <!--  -->
+
+  <!--  -->
+  <section class="section3-habilidades" id="section3-habilidades">
+    <!-- titulo -->
+    <div class="container">
+      <div class="wrapper wrapper-habilidades">
+        <h1 class="glitch kanit-regular titulos">HABILIDADES</h1>
+      </div>
+    </div>
+
+
+    <div class="habilidades">
+      <div class="tarjeta-habilidad" style="background-color: rgb(255, 163, 4);">
+        <div class="hexagon hexagon-button">
+          <a class="hexagono">
+            <span class="hexagono-content">
+              <strong>HTML</strong> HACK
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="tarjeta-habilidad" style="background-color: rgb(0, 213, 255);">
+        <a class="hexagono">
+          <span class="hexagono-content">
+            <strong>CSS</strong> HACK
+          </span>
+        </a>
+      </div>
+      <div class="tarjeta-habilidad" style="background-color: rgb(247, 255, 4);">
+        <a class="hexagono">
+          <span class="hexagono-content">
+            <strong>JS</strong> HACK
+          </span>
+        </a>
+      </div>
+      <div class="tarjeta-habilidad" style="background-color: rgb(126, 119, 200);">
+        <a class="hexagono">
+          <span class="hexagono-content">
+            <strong>PHP</strong> HACK
+          </span>
+        </a>
+      </div>
+      <div class="tarjeta-habilidad" style="background-color: rgb(255, 4, 4);">
+        <a class="hexagono">
+          <span class="hexagono-content">
+            <strong>JAVA</strong> HACK
+          </span>
+        </a>
+      </div>
+      <div class="tarjeta-habilidad" style="background-color: rgb(4, 25, 255);">
+        <a class="hexagono">
+          <span class="hexagono-content">
+            <strong>SQL</strong> HACK
+          </span>
+        </a>
+      </div>
+      <div class="tarjeta-habilidad">
+        <a class="hexagono">
+          <span class="hexagono-content">
+            <strong>SCRUM</strong> HACK
+          </span>
+        </a>
+      </div>
+      <div class="tarjeta-habilidad" style="background-color:  rgb(93, 0, 255);">
+        <a class="hexagono">
+          <span class="hexagono-content">
+            <strong>B</strong> HACK
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section2-galeria-proyectos" id="section2-galeria-proyectos">
+
+    <!-- titulo -->
+    <div class="container">
+      <div class="wrapper wrapper-proyectos">
+        <h1 class="glitch kanit-regular titulos">PROYECTOS</h1>
+      </div>
+    </div>
+    <div class="cont-4proyectos">
+      <div class="proyecto1" id="proyecto1">
+        <div class="proyecto-archivo p1-a">
+
+        </div>
+        <div class="proyecto-descripcion p1-d raleway-menu">
+          <ul>
+            <li>
+              Propósito del proyecto: ¿Por
+              qué iniciaste este
+              proyecto?
+            </li>
+            <li>
+              Objetivo: ¿Qué lograste?
+            </li>
+            <li>
+              Enfoque: ¿Cómo lo lograste?
+            </li>
+            <li>
+              Duración del proyecto: ¿Cuánto
+              tiempo te tomó?
+            </li>
+            <li>
+              El rol: ¿Cómo contribuyó al
+              equipo o al proyecto?
+            </li>
+            <li>
+              Vista general del producto:
+              Imágenes, videos,
+              enlaces, etc.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="proyecto2" id="proyecto2">
+        <div class="proyecto-archivo p2-a">
+
+        </div>
+        <div class="proyecto-descripcion p2-d raleway-menu">
+          <ul>
+            <li>
+              Propósito del proyecto: ¿Por
+              qué iniciaste este
+              proyecto?
+            </li>
+            <li>
+              Objetivo: ¿Qué lograste?
+            </li>
+            <li>
+              Enfoque: ¿Cómo lo lograste?
+            </li>
+            <li>
+              Duración del proyecto: ¿Cuánto
+              tiempo te tomó?
+            </li>
+            <li>
+              El rol: ¿Cómo contribuyó al
+              equipo o al proyecto?
+            </li>
+            <li>
+              Vista general del producto:
+              Imágenes, videos,
+              enlaces, etc.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="proyecto3" id="proyecto3">
+        <div class="proyecto-archivo p3-a">
+
+        </div>
+        <div class="proyecto-descripcion p3-d raleway-menu">
+          <ul>
+            <li>
+              Propósito del proyecto: ¿Por
+              qué iniciaste este
+              proyecto?
+            </li>
+            <li>
+              Objetivo: ¿Qué lograste?
+            </li>
+            <li>
+              Enfoque: ¿Cómo lo lograste?
+            </li>
+            <li>
+              Duración del proyecto: ¿Cuánto
+              tiempo te tomó?
+            </li>
+            <li>
+              El rol: ¿Cómo contribuyó al
+              equipo o al proyecto?
+            </li>
+            <li>
+              Vista general del producto:
+              Imágenes, videos,
+              enlaces, etc.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="proyecto4" id="proyecto4">
+        <div class="proyecto-archivo p4-a">
+
+        </div>
+        <div class="proyecto-descripcion p4-d raleway-menu">
+          <ul>
+            <li>
+              Propósito del proyecto: ¿Por
+              qué iniciaste este
+              proyecto?
+            </li>
+            <li>
+              Objetivo: ¿Qué lograste?
+            </li>
+            <li>
+              Enfoque: ¿Cómo lo lograste?
+            </li>
+            <li>
+              Duración del proyecto: ¿Cuánto
+              tiempo te tomó?
+            </li>
+            <li>
+              El rol: ¿Cómo contribuyó al
+              equipo o al proyecto?
+            </li>
+            <li>
+              Vista general del producto:
+              Imágenes, videos,
+              enlaces, etc.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!--  -->
+  <section class="section5-contacto" id="section5-contacto">
+    <!-- titulo -->
+    <div class="con">
+      <div class="container-contacto">
+        <div class="wrapper wrapper-contacto">
+          <h1 class="glitch kanit-regular titulos">CONTACTO</h1>
+          <!--
+        <p class="song-myung-regular">Puedes mandarme un mensaje llenando este formulario. </p>
+        <p class="song-myung-regular">También puedes escribir a mi correo electrónico.</p>
+        <p class="song-myung-regular"><i class="fa-solid fa-envelope"
+            style="color: #ffffff;"></i>&nbsp;&nbsp;sandra_lopez@gmail.com</p>
+        <p class="song-myung-regular"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>&nbsp;&nbsp;Buenos
+          Aires, Argentina.</p>-->
+
+
+
+          <div class="contact-info song-myung-regular">
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+
+              <div class="contact-info-content">
+                <p>Ubicación:&nbsp;&nbsp;Buenos Aires, Argentina.</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+
+              <div class="contact-info-content">
+                <p>Telefóno:&nbsp;&nbsp;571-457-2321</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+
+              <div class="contact-info-content">
+                <p class="song-myung-regular">Puedes escribir a mi correo electrónico:</p>
+               
+                <p>sandra_lopez@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="formulario">
+        <!-- si yo no le agrego nada a la etiqueta form, por defecto, viaja por el metodo GET
+                                        (la información que viaje será visible en la url)  -->
+        <form action="" class="form-contacto">
+          <p class="pacifico-regular">Puedes mandarme un mensaje llenando este formulario. </p>
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre" value="" required>
+          <!-- el atributo name="" habilita que la información
+                                                            agregada al elemento, pueda viajar. -->
+          <!-- el atributo required, hace obligatorio el llenado del input -->
+
+          <input type="text" id="email" name="email" placeholder="Email" value="" required>
+
+          <textarea id="mensaje" cols="30" rows="10" placeholder="Introduce tu mensaje" required></textarea>
+
+          <div class="btn-formulario">
+            <button class="btn-enviar" onclick=" ">Enviar</button>
+            <!-- La función crearUsuario(), esta en el archivo fech_exp_reg_adm.js -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+
+  <!--  -->
+  <section class="section4-cursos" id="section4-cursos">
+    <!-- titulo -->
+    <div class="container-cursos">
+      <div class="wrapper wrapper-cursos">
+        <h1 class="glitch kanit-regular titulos oswald-cursos">CURSOS LOGRADOS</h1>
+      </div>
+
+      <div class="carrusel-cursos">
+
+        <div class="cursos-tarjeta">
+          <div class="curso-tarjeta-img">
+            <img src="./imagenes/curso-nodejs.png" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="curso-tarjeta-descripcion oswald-cursos">
+            <h3>UDEMY - Crea APIs REST con Node, MongoDB y Express.</h3>
+            <p>Para una app como Spotify, una red social como Twitter y un blog paso a paso</p>
+          </div>
+        </div>
+
+        <div class="cursos-tarjeta">
+          <div class="curso-tarjeta-img">
+            <img src="./imagenes/curso-redes.png" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="curso-tarjeta-descripcion oswald-cursos">
+            <h3>CISCO - Conceptos básicos de redes</h3>
+            <p>El curso Conceptos Básicos de Redes enseña los fundamentos de la red y abarca los conceptos básicos y las
+              habilidades necesarias para configurar y administrar la red.</p>
+          </div>
+        </div>
+
+        <div class="cursos-tarjeta">
+          <div class="curso-tarjeta-img">
+            <img src="./imagenes/curso-packet.png" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="curso-tarjeta-descripcion oswald-cursos">
+            <h3>CISCO - Introducción a Cisco Packet Tracer</h3>
+            <p>Este curso cubre la base de redes y dispositivos de red, medios y protocolos. Observará datos que fluyen
+              a través de una red y configurará dispositivos para conectarse a redes.</p>
+          </div>
+        </div>
+
+        <div class="cursos-tarjeta">
+          <div class="curso-tarjeta-img">
+            <img src="./imagenes/curso-full-java.png" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="curso-tarjeta-descripcion oswald-cursos">
+            <h3>Ministerio de Educación e Inovación - GCBA - Full Stack JAVA</h3>
+            <p>Desarrollo Orientado a Objetos con integración de base de datos. Crear sitios web dinámicos con
+              HTML, CSS y JavaScript. Integrar FrontEnd y BackEnd mediante la tecnología Java.</p>
+          </div>
+        </div>
+
+        <div class="cursos-tarjeta">
+          <div class="curso-tarjeta-img">
+            <img src="./imagenes/curso-mysql.png" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="curso-tarjeta-descripcion oswald-cursos">
+            <h3>LINKEDIN - SQL Server: Triggers, procedimientos almacenados y funciones</h3>
+            <p>SQL Server, el manejador de bases de datos de Microsoft, cuenta con triggers, procedimientos almacenados
+              y funciones, que te permiten hacer una útil aplicación de bases de datos.</p>
+          </div>
+        </div>
+        <!-- -------------------------------------------- -->
+        <div class="cursos-tarjeta">
+          <div class="curso-tarjeta-img">
+            <img src="./imagenes/curso-mysql.png" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="curso-tarjeta-descripcion oswald-cursos">
+            <h3>LINKEDIN - SQL Server: Triggers, procedimientos almacenados y funciones</h3>
+            <p>SQL Server, el manejador de bases de datos de Microsoft, cuenta con triggers, procedimientos almacenados
+              y funciones, que te permiten hacer una útil aplicación de bases de datos.</p>
+          </div>
+        </div>
+
+        <div class="cursos-tarjeta">
+          <div class="curso-tarjeta-img">
+            <img src="./imagenes/curso-full-java.png" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="curso-tarjeta-descripcion oswald-cursos">
+            <h3>Ministerio de Educación e Inovación - GCBA - Full Stack JAVA</h3>
+            <p>Desarrollo Orientado a Objetos con integración de base de datos. Crear sitios web dinámicos con
+              HTML, CSS y JavaScript. Integrar FrontEnd y BackEnd mediante la tecnología Java.</p>
+          </div>
+        </div>
+
+        <div class="cursos-tarjeta">
+          <div class="curso-tarjeta-img">
+            <img src="./imagenes/curso-mysql.png" alt="" style="height: 100%; width: 100%;">
+          </div>
+          <div class="curso-tarjeta-descripcion oswald-cursos">
+            <h3>LINKEDIN - SQL Server: Triggers, procedimientos almacenados y funciones</h3>
+            <p>SQL Server, el manejador de bases de datos de Microsoft, cuenta con triggers, procedimientos almacenados
+              y funciones, que te permiten hacer una útil aplicación de bases de datos.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--  -->
+
+
+
+
+
+
+
+  <footer>
+    <div class="copyrigth josefin-sans-footer">
+      <p style="text-align: center;">@Julio-2024 sandra_lopez@gmail.com </p>
+    </div>
+  </footer>
+
+  <script src="./javascript/index.js"></script>
+
+
+</body>
+
+</html>
