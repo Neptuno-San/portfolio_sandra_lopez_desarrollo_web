@@ -22,10 +22,9 @@
           }
 
 
-          .sobre-mi-texto { 
-                    width: 85%;
+          .sobre-mi-texto {
+                    width: 88%;
                     color: var(--blanco);
-                    margin-top: 15px;
                     text-align: justify;
           }
 

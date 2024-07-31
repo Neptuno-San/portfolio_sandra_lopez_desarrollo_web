@@ -3,7 +3,7 @@
 
           .section5-contacto {
                     background-color: var(--negro);
-                    height: 900px;
+                    height: 1000px;
                     width: 100%;
                     padding: 40px 0 40px 0;
                     overflow: hidden;
@@ -11,7 +11,7 @@
 
           .con {
                     background-color: var(--blue);
-                    height: 890px;
+                    height: 910px;
                     width: 93%;
                     margin-left: 3%;
                     border-radius: 15px;
@@ -26,7 +26,6 @@
                     width: 92%;
                     display: flex;
                     flex-direction: column;
-                    margin-bottom: 25px;
           }
 
           .contact-info-item {
@@ -57,11 +56,12 @@
           .contact-info-content p {
                     color: #a31414;
                     font-size: 18px;
+                    margin-bottom: 1px;
           }
 
           /* formulario  */
 
-          .formulario { 
+          .formulario {
                     height: 600px;
                     width: 90%;
                     margin-left: 1.8%;
@@ -69,9 +69,9 @@
           }
 
           .form-contacto {
-                    height: 500px;
+                    height: 80%;
                     width: 98%;
-                    margin-top: 20px;
+                    margin-top: 10%;
                     border-radius: 10px;
                     display: flex;
                     flex-direction: column;

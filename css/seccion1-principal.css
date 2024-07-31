@@ -29,7 +29,7 @@
   }
   
   .presentacion-titulo {
-    font-size: 35px;
+    font-size: 45px;
     text-align: left;
   /*  letter-spacing: 5px;
     line-height: 90px;*/
@@ -40,8 +40,9 @@
   }
   
   .presentacion-titulo .nombre {
+    margin-left: 15px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
     z-index: 10;
   }
   
