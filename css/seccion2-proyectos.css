@@ -1,0 +1,263 @@
+/* Media query para teléfonos MUY PEQUEÑOS móviles SM XS */
+@media only screen and (max-width: 490px) {
+   .section2-galeria-proyectos {
+      background-color: var(--negro);
+      height: 1850px;
+      width: 100%; 
+      border-top: 2px var(--gris-oscuro) solid;
+      padding: 40px 0 40px 0;
+      box-shadow: inset 0px 0px 20px var(--negro),
+         0px 0px 20px var(--negro);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    z-index: 10;  
+      overflow: hidden;
+      
+   }
+
+   .wrapper-proyectos {
+      height: 110px;
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+
+   .cont-4proyectos {
+      background-color: #19191B;
+      height: 1850px;
+      width: 100%;
+      padding: 20px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+
+      z-index: 10;
+   }
+
+   .proyecto1,
+   .proyecto2,
+   .proyecto3,
+   .proyecto4 {
+      background-color: #0f0f0f;
+      height: 380px;
+      width: 80%;
+      margin-left: 5%;
+      margin-bottom: 25px;
+      padding: 0 18px 18px 18px;
+   }
+
+}
+
+/* Media query para teléfonos STANDAR móviles SM XS */
+@media only screen and (min-width: 491px) and (max-width: 795px) {
+   .section2-galeria-proyectos {
+      background-color: var(--negro);
+      height: 2000px;
+      width: 95%; 
+      margin-left: 5%;
+      border-top: 2px var(--gris-oscuro) solid;
+      padding: 40px 0 40px 0;
+      box-shadow: inset 0px 0px 20px var(--negro),
+         0px 0px 20px var(--negro);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+      z-index: 10;
+   }
+
+   .wrapper-proyectos {
+      
+      height: 110px;
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+
+   .cont-4proyectos {
+      background-color: #19191B;
+      height: 1900px;
+      width: 95%;
+      margin-left: 9%;
+      padding: 20px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+
+      z-index: 10;
+   }
+
+   .proyecto1,
+   .proyecto2,
+   .proyecto3,
+   .proyecto4 {
+      background-color: #0f0f0f;
+      height: 380px;
+      width: 80%;
+      margin-left: 3.5%;
+      margin-bottom: 25px;
+      padding: 0 18px 18px 18px;
+   }
+
+}
+
+/* Media query para tabletas MD */
+@media only screen and (min-width: 796px) and (max-width:991px) {
+   
+   .section2-galeria-proyectos {
+      background-color: var(--negro);
+      height: 1100px;
+      width: 100%;
+      border-top: 2px var(--gris-oscuro) solid;
+      padding: 60px 0 50px 0;
+      box-shadow: inset 0px 0px 20px var(--negro),
+         0px 0px 20px var(--negro);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+      overflow: hidden;
+   }
+
+   .wrapper-proyectos {
+      height: 100px;
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .cont-4proyectos {
+      background-color: #19191B;
+      height: 980px;
+      width: 90%;
+      margin-left: 6%;
+      padding: 20px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+
+      z-index: 10;
+   }
+
+   .proyecto1,
+   .proyecto2,
+   .proyecto3,
+   .proyecto4 {
+      background-color: #0f0f0f;
+      height: 380px;
+      width: 40%;
+      margin-right: 3%;
+      padding: 0 18px 18px 18px;
+   }
+}
+
+/* Media query para dispositivos de escritorio LG */
+@media only screen and (min-width: 992px) {
+
+   .section2-galeria-proyectos {
+      background-color: var(--negro);
+      height: 1100px;
+      width: 100%;
+      border-top: 2px var(--gris-oscuro) solid;
+      padding: 60px 0 50px 0;
+      box-shadow: inset 0px 0px 20px var(--negro),
+         0px 0px 20px var(--negro);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+      overflow: hidden;
+   }
+
+   .wrapper-proyectos {
+      height: 100px;
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+
+   .cont-4proyectos {
+      background-color: #19191B;
+      height: 980px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 20px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+
+      z-index: 10;
+   }
+
+   .proyecto1,
+   .proyecto2,
+   .proyecto3,
+   .proyecto4 {
+      background-color: #0f0f0f;
+      height: 380px;
+      width: 40%;
+      padding: 0 18px 18px 18px;
+   }
+}
+
+.proyecto1 {
+   box-shadow: 10px 8px 10px rgb(97, 161, 200);
+}
+
+.proyecto2 {
+   box-shadow: 10px 8px 10px rgb(55, 214, 46);
+}
+
+.proyecto3 {
+   box-shadow: 10px 8px 10px rgb(8, 8, 173);
+}
+
+.proyecto4 {
+   box-shadow: 10px 8px 10px rgb(216, 105, 197);
+}
+
+/* **************************************************** */
+
+.proyecto-archivo,
+.proyecto-descripcion {
+   height: 50%;
+   width: 100%;
+   font-size: 16px;
+   overflow: hidden;
+}
+
+.p1-a,
+.p2-a,
+.p3-a,
+.p4-a {
+   background-color: var(--gris-oscuro);
+   height: 50%;
+   width: 108.2%;
+   margin-left: -4.5%;
+}
+
+.p1-d,
+.p2-d,
+.p3-d,
+.p4-d {
+   color: var(--blanco);
+   margin-top: 15px;
+}
+
+ul {
+   list-style: none;
+}

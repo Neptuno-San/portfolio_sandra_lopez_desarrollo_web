@@ -1,0 +1,345 @@
+/* Media query para teléfonos MUY PEQUEÑOS móviles SM XS */
+@media only screen and (max-width: 490px) {
+  .section4-cursos {
+    background-color: var(--rosa);
+    height: 300px;
+    width: 100%;
+    
+    padding: 40px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    
+    overflow: hidden;
+  }
+
+  .container-cursos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+  }
+  
+  .wrapper-cursos {
+    height: 300px;
+    width: 50%;  
+    margin-left: 8%;
+    text-align: center;
+  }
+  
+  .carrusel-cursos {
+    background-color: var(--negro);
+    height: 100px;
+    width: 2000px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    animation: scroll 55s linear infinite;
+    -webkit-animation: scroll 55s linear infinite;
+    width: calc(380px * 8);
+  }
+  
+  .cursos-tarjeta {
+    background-color: var(--blanco);
+    height: 260px;
+    width: 290px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 8px 10px rgb(103, 104, 104);
+  }
+  
+  .curso-tarjeta-img {
+    background-color: coral;
+    height: 95px;
+    width: 98%;
+  }
+  
+  .curso-tarjeta-descripcion {
+    height: 150px;
+    width: 90%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .curso-tarjeta-descripcion h3 {
+    font-size: 15px;
+  }
+  
+  .curso-tarjeta-descripcion p {
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+
+/* Media query para teléfonos STANDAR móviles SM XS */
+@media only screen and (min-width: 491px) and (max-width: 795px) {
+  .section4-cursos {
+    background-color: var(--rosa);
+    height: 300px;
+    width: 95%;
+    margin-left: 5%;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    
+    overflow: hidden;
+  }
+  
+  .container-cursos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+  }
+  
+  .wrapper-cursos {  
+    height: 280px;
+    width: 50%;  
+    text-align: center;
+  }
+ 
+  .carrusel-cursos {
+    background-color: var(--negro);
+    height: 100px;
+    width: 2000px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    animation: scroll 55s linear infinite;
+    -webkit-animation: scroll 55s linear infinite;
+    width: calc(380px * 8);
+  }
+  
+  .cursos-tarjeta {
+    background-color: var(--blanco);
+    height: 260px;
+    width: 290px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 8px 10px rgb(103, 104, 104);
+  }
+  
+  .curso-tarjeta-img {
+    background-color: coral;
+    height: 95px;
+    width: 98%;
+  }
+  
+  .curso-tarjeta-descripcion {
+    height: 150px;
+    width: 90%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .curso-tarjeta-descripcion h3 {
+    font-size: 15px;
+  }
+  
+  .curso-tarjeta-descripcion p {
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+
+
+/* Media query para tabletas MD */
+@media only screen and (min-width: 796px) and (max-width:991px) {
+  
+.section4-cursos {
+  background-color: var(--rosa);
+  height: 500px;
+  width: 100%; 
+
+  padding: 40px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+  
+  overflow: hidden;
+}
+
+.container-cursos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+  text-align: center;
+}
+
+.wrapper-cursos {
+  height: 400px;
+  width: 50%;  
+  margin-left: 8%;
+  text-align: center;
+}
+
+.carrusel-cursos {
+  background-color: var(--negro);
+  height: 100px;
+  width: 2000px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  animation: scroll 55s linear infinite;
+  -webkit-animation: scroll 55s linear infinite;
+  width: calc(380px * 8);
+}
+
+.cursos-tarjeta {
+  background-color: var(--blanco);
+  height: 250px;
+  width: 290px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 8px 10px rgb(103, 104, 104);
+}
+
+.curso-tarjeta-img {
+  background-color: coral;
+  height: 90px;
+  width: 90%;
+}
+
+.curso-tarjeta-descripcion {
+  height: 120px;
+  width: 90%;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.curso-tarjeta-descripcion h3 {
+  font-size: 15px;
+}
+
+.curso-tarjeta-descripcion p {
+  text-align: justify;
+  font-size: 12px;
+}
+}
+
+/* Media query para dispositivos de escritorio LG */
+@media only screen and (min-width: 992px) {
+
+.section4-cursos {
+  background-color: var(--rosa);
+  height: 500px;
+  width: 100%;
+  padding: 40px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+  
+  overflow: hidden;
+}
+
+.container-cursos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+  text-align: center;
+}
+
+.wrapper-cursos {
+  height: 400px;
+  width: 50%;  
+  margin-left: 8%;
+  text-align: center;
+}
+
+.carrusel-cursos {
+  background-color: var(--negro);
+  height: 100px;
+  width: 2000px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  animation: scroll 55s linear infinite;
+  -webkit-animation: scroll 55s linear infinite;
+  width: calc(380px * 8);
+}
+
+.cursos-tarjeta {
+  background-color: var(--blanco);
+  height: 250px;
+  width: 290px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 8px 10px rgb(103, 104, 104);
+}
+
+.curso-tarjeta-img {
+  background-color: coral;
+  height: 90px;
+  width: 90%;
+}
+
+.curso-tarjeta-descripcion {
+  height: 120px;
+  width: 90%;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.curso-tarjeta-descripcion h3 {
+  font-size: 15px;
+}
+
+.curso-tarjeta-descripcion p {
+  text-align: justify;
+  font-size: 12px;
+}
+}
+
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-380px * 4));
+    transform: translateX(calc(-380px * 4));
+  }
+}

@@ -1,0 +1,215 @@
+/* relacionar con otro archivo css */
+@import url(menu-lateral.css);
+@import url(seccion1-principal.css);
+@import url(seccion2-proyectos.css);
+@import url(seccion3-habilidades.css);
+@import url(seccion4-cursos.css);
+@import url(seccion5-contacto.css);
+@import url(seccion6-mi.css);
+@import url(fondo-animado.css);
+@import url(cohete.css);
+@import url(wrapper.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* en este archivo aparecerán solo los atributos generales para los distintos tamaños de dispositivos */
+
+/* Selector universal*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  /*definir variables de colores */
+  /* por pareja de combinación */
+  --body: #fff;
+  --border-seccion: #e5e7eb;
+
+  --menu: #090A17;
+  --menu-par: #171609;
+
+  --seccion1: aqua;
+  --seccion3: #1D4D82;
+  --sec3-comp: #82521D;
+  --seccion4: #C6A716;
+  --sec4-comp: #1635C6;
+  --seccion5: #9E9D94;
+  --sec5-comp: #94959E;
+  --seccion6: #9143A0;
+  --sec6-comp: #52A043;
+
+  --blanco: white;
+  --negro: black;
+  --gris-claro: gray;
+  --gris-suave: #E5E7E9;
+  --bordo: #7B241C;
+  --gris-oscuro: rgb(76, 73, 73);
+
+
+  --titulo-e1: red;
+  --titulo-e2: rgb(111, 228, 226);
+  --titulo-e3: #555;
+
+
+  --verde: #4bb123;
+
+  --rosa: #EB8B88;
+  --crema: #F8E7DB;
+
+  --naranja: #FFA202;
+  --azul: #333CEB;
+
+  --par1-nav: #366CE8;
+  --par2-nav: #E836C5;
+  --par3-nav: #E8B236;
+  --par4-nav: #36E859;
+
+  --par1-seccion: #9B60DA;
+  --par2-seccion: #DA6062;
+  --par3-seccion: #9FDA60;
+  --par4-seccion: #60DAD8;
+
+  --violeta-fuerte: blueviolet;
+
+  --gris: rgb(196, 192, 192);
+
+  --violeta-azul: #4223b1;
+
+
+  /* formato */
+  --green: rgba(31, 233, 174, 1);
+  --azure: rgba(2, 253, 254, 1);
+  --pink: rgba(220, 109, 220, 1);
+  --blue: rgba(68, 133, 255, 1);
+
+}
+
+
+/* font menu */
+.arsenal-sc-regular {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* font seccion1 */
+.asset-regular {
+  font-family: "Asset", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald-presentacion {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* section6-de-mi */
+.roboto-mono-titulo {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* titulos de secciones */
+.titulos {
+  color: #ffffff;
+  text-align: justify;
+  letter-spacing: 15px;
+  font-size: 40px;
+  text-shadow:
+    0 0 1px rgba(255, 0, 0, 0.4),
+    3px 3px 1px var(--titulo-e1),
+    -5px -1px 2px var(--titulo-e2),
+    -2px 2px 1px var(--titulo-e3);
+}
+
+/* titulos de secciones */
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* copyrigth */
+.josefin-sans-footer {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* contacto */
+.song-myung-regular {
+  font-family: "Song Myung", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* cursos */
+.oswald-cursos {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/*  ************************************************************************************* */
+/*  ************************************************************************************* */
+
+
+
+
+body {
+  background: #ff00cc;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 4100px; 
+  padding-bottom: 20px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+@keyframes movimiento {
+  from {
+
+    background-position: 100% 100%;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+/*  ************************************************************************************* */
+/*  ************************************************************************************* */
+
+footer {
+  background-color: var(--negro);
+  height: 100px;
+  width: 100%;
+  color: rgb(90, 95, 107);
+  margin-top: -100px;
+  padding-top: 200px;
+  
+  border-radius: 0 0 50% 50%;
+  /*  box-shadow: 0 0 20px var(--color-borde); difumina una sombra alrededor del color seleccionado */
+  box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
+  /* difuminado externo */
+}
+ 

@@ -1,0 +1,309 @@
+/* Media query para teléfonos MUY PEQUEÑOS móviles SM XS */
+@media only screen and (max-width: 490px) {
+          .wrapper h1.glitch {
+                    color: white;
+                    font-family: sans-serif;
+                    position: relative;
+                    font-size: 22px;
+                    font-weight: bold;
+                    letter-spacing: 5px;
+                    padding: 30px;
+          }
+
+}
+
+/* Media query para teléfonos STANDAR móviles SM XS */
+@media only screen and (min-width: 491px) and (max-width: 795px) {
+          .wrapper h1.glitch {
+                    color: white;
+                    font-family: sans-serif;
+                    position: relative;
+                    font-size: 28px;
+                    font-weight: bold;
+                    letter-spacing: 5px;
+                    padding: 30px;
+          }
+}
+
+/* Media query para tabletas MD */
+@media only screen and (min-width: 796px) and (max-width:991px) {
+          .wrapper h1.glitch {
+                    color: white;
+                    font-family: sans-serif;
+                    position: relative;
+                    font-size: 35px;
+                    font-weight: bold;
+                    letter-spacing: 15px;
+                    padding: 30px;
+          }
+}
+
+/* Media query para dispositivos de escritorio LG */
+@media only screen and (min-width: 992px) {
+
+          .wrapper h1.glitch {
+                    color: white;
+                    font-family: sans-serif;
+                    position: relative;
+                    font-size: 40px;
+                    font-weight: bold;
+                    letter-spacing: 15px;
+                    padding: 30px;
+          }
+}
+          .wrapper-sobre-mi h1.glitch::before,
+          .wrapper-sobre-mi h1.glitch::after {
+                    padding: 30px;
+                    color: white;
+                    content: "SOBRE MI";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: black;
+                    overflow: hidden;
+                    top: 0;
+          }
+
+          .wrapper-habilidades h1.glitch::before,
+          .wrapper-habilidades h1.glitch::after {
+                    padding: 30px;
+                    color: white;
+                    content: "HABILIDADES";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: black;
+                    overflow: hidden;
+                    top: 0;
+          }
+
+          .wrapper-proyectos h1.glitch::before,
+          .wrapper-proyectos h1.glitch::after {
+                    padding: 30px;
+                    color: white;
+                    content: "PROYECTOS";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: black;
+                    overflow: hidden;
+                    top: 0;
+          }
+
+          .wrapper-cursos h1.glitch::before,
+          .wrapper-c h1.glitch::after {
+                    padding: 30px;
+                    color: white;
+                    content: "CURSOS LOGRADOS";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: var(--rosa);
+                    overflow: hidden;
+                    top: 0;
+          }
+
+          .wrapper-contacto h1.glitch::before,
+          .wrapper-contacto h1.glitch::after {
+                    padding: 30px;
+                    color: white;
+                    content: "CONTACTO";
+                    position: absolute;
+                    background: var(--blue);
+                    overflow: hidden;
+                    top: 0;
+          }
+
+          .wrapper h1.glitch::before {
+                    left: 3px;
+                    text-shadow: -3px -2px var(--titulo-e2);
+                    animation-name: glitch-animation-1;
+                    animation-duration: 2s;
+                    animation-timing-function: linear;
+                    animation-delay: 1s;
+                    animation-iteration-count: infinite;
+                    animation-direction: reverse-alternate;
+          }
+
+          .wrapper h1.glitch::after {
+                    left: -3px;
+                    text-shadow: 3px 2px var(--titulo-e1);
+                    animation-name: glitch-animation-2;
+                    animation-duration: 2s;
+                    animation-timing-function: linear;
+                    animation-delay: 1s;
+                    animation-iteration-count: infinite;
+                    animation-direction: reverse-alternate;
+          }
+
+          @keyframes glitch-animation-1 {
+                    0% {
+                              clip: rect(51px, 700px, 85px, 30px);
+                    }
+
+                    5% {
+                              clip: rect(113px, 700px, 34px, 30px);
+                    }
+
+                    10% {
+                              clip: rect(130px, 700px, 97px, 30px);
+                    }
+
+                    15% {
+                              clip: rect(71px, 700px, 54px, 30px);
+                    }
+
+                    20% {
+                              clip: rect(70px, 700px, 93px, 80px);
+                    }
+
+                    25% {
+                              clip: rect(87px, 700px, 103px, 30px);
+                    }
+
+                    30% {
+                              clip: rect(111px, 700px, 10px, 30px);
+                    }
+
+                    35% {
+                              clip: rect(13px, 700px, 94px, 30px);
+                    }
+
+                    40% {
+                              clip: rect(50px, 700px, 66px, 30px);
+                    }
+
+                    45% {
+                              clip: rect(133px, 700px, 79px, 30px);
+                    }
+
+                    50% {
+                              clip: rect(145px, 700px, 3px, 30px);
+                    }
+
+                    55% {
+                              clip: rect(68px, 700px, 118px, 30px);
+                    }
+
+                    60% {
+                              clip: rect(101px, 700px, 68px, 30px);
+                    }
+
+                    65% {
+                              clip: rect(104px, 700px, 4px, 30px);
+                    }
+
+                    70% {
+                              clip: rect(46px, 700px, 102px, 30px);
+                    }
+
+                    75% {
+                              clip: rect(79px, 700px, 137px, 30px);
+                    }
+
+                    80% {
+                              clip: rect(30px, 700px, 67px, 30px);
+                    }
+
+                    85% {
+                              clip: rect(28px, 700px, 90px, 30px);
+                    }
+
+                    90% {
+                              clip: rect(146px, 700px, 139px, 30px);
+                    }
+
+                    95% {
+                              clip: rect(124px, 700px, 54px, 30px);
+                    }
+
+                    100% {
+                              clip: rect(90px, 700px, 132px, 30px);
+                    }
+          }
+
+          @keyframes glitch-animation-2 {
+                    0% {
+                              clip: rect(6px, 700px, 71px, 30px);
+                    }
+
+                    5% {
+                              clip: rect(93px, 700px, 136px, 30px);
+                    }
+
+                    10% {
+                              clip: rect(145px, 700px, 118px, 30px);
+                    }
+
+                    15% {
+                              clip: rect(19px, 700px, 89px, 30px);
+                    }
+
+                    20% {
+                              clip: rect(96px, 700px, 115px, 30px);
+                    }
+
+                    25% {
+                              clip: rect(117px, 700px, 29px, 30px);
+                    }
+
+                    30% {
+                              clip: rect(105px, 700px, 137px, 30px);
+                    }
+
+                    35% {
+                              clip: rect(97px, 700px, 108px, 30px);
+                    }
+
+                    40% {
+                              clip: rect(109px, 700px, 111px, 30px);
+                    }
+
+                    45% {
+                              clip: rect(103px, 700px, 20px, 30px);
+                    }
+
+                    50% {
+                              clip: rect(69px, 700px, 89px, 30px);
+                    }
+
+                    55% {
+                              clip: rect(96px, 700px, 44px, 30px);
+                    }
+
+                    60% {
+                              clip: rect(113px, 700px, 73px, 30px);
+                    }
+
+                    65% {
+                              clip: rect(56px, 700px, 23px, 30px);
+                    }
+
+                    70% {
+                              clip: rect(47px, 700px, 58px, 30px);
+                    }
+
+                    75% {
+                              clip: rect(144px, 700px, 47px, 30px);
+                    }
+
+                    80% {
+                              clip: rect(102px, 700px, 121px, 30px);
+                    }
+
+                    85% {
+                              clip: rect(7px, 700px, 149px, 30px);
+                    }
+
+                    90% {
+                              clip: rect(95px, 700px, 80px, 30px);
+                    }
+
+                    95% {
+                              clip: rect(35px, 700px, 97px, 30px);
+                    }
+
+                    100% {
+                              clip: rect(105px, 700px, 28px, 30px);
+                    }
+          }

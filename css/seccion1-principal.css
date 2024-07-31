@@ -1,0 +1,310 @@
+
+/* Media query para teléfonos MUY PEQUEÑOS móviles SM XS */
+@media only screen and (max-width: 490px) {
+
+  .section1-presentacion {
+    height: 900px;
+    width: 100%;
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to bottom, #333399, #ff00cc);
+    box-shadow: 0 10px 50px violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-end;
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  .presentacion { 
+    height: 310px;
+    width: 85%;
+    margin-right: 5%;
+    margin-top: -110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    z-index: 10;
+  }
+  
+  .presentacion-titulo {
+    font-size: 45px;
+    text-align: left;
+  /*  letter-spacing: 5px;
+    line-height: 90px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 10;
+  }
+  
+  .presentacion-titulo .nombre {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 45px;
+    z-index: 10;
+  }
+  
+  .presentacion-parrafo {
+    color: var(--negro);
+    height: 30%;
+    width: 100%;
+    font-size: 22px;
+    padding-top: 5px;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .img-personal {
+    color: var(--par3-nav);
+    height: 180px;
+    width: 400px;
+    padding-top: 70px;
+    padding-left: 100px;
+    display: flex;
+    /* propiedad necesaria parar ordenar en una columna a los hijos mas directos */
+    flex-direction: row;
+    /* los hijos mas directos se posicionarán en una columna*/
+    justify-content: space-between;
+    /* propiedad necesaria para posicionar en fila los hijos mas directos */
+    align-items: right;
+    z-index: 10;
+  }
+}
+
+/* Media query para teléfonos STANDAR móviles SM XS */
+@media only screen and (min-width: 491px) and (max-width: 795px) {
+  .section1-presentacion {
+    height: 900px;
+    width: 98%;
+    margin-left: 2%;
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to bottom, #333399, #ff00cc);
+    box-shadow: 0 10px 50px violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-end;
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  .presentacion {  
+    height: 310px;
+    width: 60%;
+    margin-right: 9%;
+    margin-top: -170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    z-index: 10;
+  }
+  
+  .presentacion-titulo {
+    font-size: 45px;
+    text-align: left;
+  /*  letter-spacing: 5px;
+    line-height: 90px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 10;
+  }
+  
+  .presentacion-titulo .nombre {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 45px;
+    z-index: 10;
+  }
+  
+  .presentacion-parrafo {
+    color: var(--negro);
+    height: 30%;
+    width: 100%;
+    font-size: 22px;
+    padding-top: 5px;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .img-personal {
+    color: var(--par3-nav);
+    height: 180px;
+    width: 400px;
+    padding-top: 70px;
+    padding-left: 100px;
+    display: flex;
+    /* propiedad necesaria parar ordenar en una columna a los hijos mas directos */
+    flex-direction: row;
+    /* los hijos mas directos se posicionarán en una columna*/
+    justify-content: space-between;
+    /* propiedad necesaria para posicionar en fila los hijos mas directos */
+    align-items: right;
+    z-index: 10;
+  }
+}
+
+/* Media query para tabletas MD */
+@media only screen and (min-width: 796px) and (max-width:991px) {
+  
+.section1-presentacion {
+  height: 1000px;
+  width: 100%;
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+  background: linear-gradient(to bottom, #333399, #ff00cc);
+  box-shadow: 0 10px 50px violet;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.presentacion {
+  height: 280px;
+  width: 85%;
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: right;
+  z-index: 10;
+}
+
+.presentacion-titulo {
+  font-size: 70px;
+  text-align: left;
+  letter-spacing: 5px;
+  line-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.presentacion-titulo .nombre {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 90px;
+  z-index: 10;
+}
+
+.presentacion-parrafo {
+  color: var(--negro);
+  height: 30%;
+  width: 100%;
+  font-size: 22px;
+  padding-top: 5px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.img-personal {
+  color: var(--par3-nav);
+  height: 180px;
+  width: 400px;
+  padding-top: 70px;
+  padding-left: 100px;
+  display: flex;
+  /* propiedad necesaria parar ordenar en una columna a los hijos mas directos */
+  flex-direction: row;
+  /* los hijos mas directos se posicionarán en una columna*/
+  justify-content: space-between;
+  /* propiedad necesaria para posicionar en fila los hijos mas directos */
+  align-items: right;
+  z-index: 10;
+}
+}
+
+/* Media query para dispositivos de escritorio LG */
+@media only screen and (min-width: 992px) {
+
+.section1-presentacion {
+  height: 1000px;
+  width: 100%;
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+  background: linear-gradient(to bottom, #333399, #ff00cc);
+  box-shadow: 0 10px 50px violet;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.presentacion {
+  height: 280px;
+  width: 85%;
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: right;
+  z-index: 10;
+}
+
+.presentacion-titulo {
+  font-size: 70px;
+  text-align: left;
+  letter-spacing: 5px;
+  line-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.presentacion-titulo .nombre {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 90px;
+  z-index: 10;
+}
+
+.presentacion-parrafo {
+  color: var(--negro);
+  height: 30%;
+  width: 100%;
+  font-size: 22px;
+  padding-top: 5px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.img-personal {
+  color: var(--par3-nav);
+  height: 180px;
+  width: 400px;
+  padding-top: 70px;
+  padding-left: 100px;
+  display: flex;
+  /* propiedad necesaria parar ordenar en una columna a los hijos mas directos */
+  flex-direction: row;
+  /* los hijos mas directos se posicionarán en una columna*/
+  justify-content: space-between;
+  /* propiedad necesaria para posicionar en fila los hijos mas directos */
+  align-items: right;
+  z-index: 10;
+}
+}
+
+
+
+@keyframes traslacion-anillo1 {
+  100% {
+    transform: unset;
+    background-color: #473303;
+  }
+}
+
+@keyframes traslacion-anillo2 {
+  100% {
+    transform: unset;
+    background-color: #1d4c05;
+  }
+}
