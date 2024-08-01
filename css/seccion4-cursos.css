@@ -2,13 +2,13 @@
 @media only screen and (max-width: 490px) {
   .section4-cursos {
     background-color: var(--rosa);
-    height: 300px;
+    height: 400px;
     width: 100%;
     
-    padding: 40px 0 100px 0;
+    padding: 10px 0 100px 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; 
     
     overflow: hidden;
@@ -25,14 +25,13 @@
   
   .wrapper-cursos {
     height: 300px;
-    width: 50%;  
-    margin-left: 8%;
+    width: 200px;     
     text-align: center;
   }
   
   .carrusel-cursos {
     background-color: var(--negro);
-    height: 100px;
+    height: 150px;
     width: 2000px; 
     display: flex;
     flex-direction: row;
@@ -85,18 +84,18 @@
 @media only screen and (min-width: 491px) and (max-width: 795px) {
   .section4-cursos {
     background-color: var(--rosa);
-    height: 300px;
-    width: 95%;
-    margin-left: 5%;
-    padding: 40px 0 40px 0;
+    height: 400px;
+    width: 100%;
+    
+    padding: 10px 0 100px 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; 
     
     overflow: hidden;
   }
-  
+
   .container-cursos {
     width: 100%;
     display: flex;
@@ -107,11 +106,10 @@
   }
   
   .wrapper-cursos {  
-    height: 280px;
-    width: 50%;  
+    height: 300px;
+    width: 200px;   
     text-align: center;
   }
- 
   .carrusel-cursos {
     background-color: var(--negro);
     height: 100px;
