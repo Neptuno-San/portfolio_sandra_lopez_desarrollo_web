@@ -1,5 +1,5 @@
 
-/* Media query para teléfonos MUY PEQUEÑOS móviles SM XS */
+ 
 @media only screen and (max-width: 490px) {
 
   .section1-presentacion {
@@ -30,9 +30,7 @@
   
   .presentacion-titulo {
     font-size: 35px;
-    text-align: left;
-  /*  letter-spacing: 5px;
-    line-height: 90px;*/
+    text-align: left; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -60,18 +58,13 @@
     width: 400px;
     padding-top: 70px;
     padding-left: 100px;
-    display: flex;
-    /* propiedad necesaria parar ordenar en una columna a los hijos mas directos */
-    flex-direction: row;
-    /* los hijos mas directos se posicionarán en una columna*/
-    justify-content: space-between;
-    /* propiedad necesaria para posicionar en fila los hijos mas directos */
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
     align-items: right;
     z-index: 10;
   }
-}
-
-/* Media query para teléfonos STANDAR móviles SM XS */
+} 
 @media only screen and (min-width: 491px) and (max-width: 795px) {
   .section1-presentacion {
     height: 900px;
@@ -102,9 +95,7 @@
   
   .presentacion-titulo {
     font-size: 40px;
-    text-align: left;
-  /*  letter-spacing: 5px;
-    line-height: 90px;*/
+    text-align: left; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -133,18 +124,14 @@
     width: 400px;
     padding-top: 70px;
     padding-left: 100px;
-    display: flex;
-    /* propiedad necesaria parar ordenar en una columna a los hijos mas directos */
-    flex-direction: row;
-    /* los hijos mas directos se posicionarán en una columna*/
-    justify-content: space-between;
-    /* propiedad necesaria para posicionar en fila los hijos mas directos */
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
     align-items: right;
     z-index: 10;
   }
 }
-
-/* Media query para tabletas MD */
+ 
 @media only screen and (min-width: 796px) and (max-width:991px) {
   
 .section1-presentacion {
@@ -206,18 +193,14 @@
   width: 400px;
   padding-top: 70px;
   padding-left: 100px;
-  display: flex;
-  /* propiedad necesaria parar ordenar en una columna a los hijos mas directos */
-  flex-direction: row;
-  /* los hijos mas directos se posicionarán en una columna*/
-  justify-content: space-between;
-  /* propiedad necesaria para posicionar en fila los hijos mas directos */
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
   align-items: right;
   z-index: 10;
 }
 }
-
-/* Media query para dispositivos de escritorio LG */
+ 
 @media only screen and (min-width: 992px) {
 
 .section1-presentacion {
@@ -279,12 +262,9 @@
   width: 400px;
   padding-top: 70px;
   padding-left: 100px;
-  display: flex;
-  /* propiedad necesaria parar ordenar en una columna a los hijos mas directos */
-  flex-direction: row;
-  /* los hijos mas directos se posicionarán en una columna*/
-  justify-content: space-between;
-  /* propiedad necesaria para posicionar en fila los hijos mas directos */
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
   align-items: right;
   z-index: 10;
 }

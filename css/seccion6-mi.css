@@ -1,165 +1,148 @@
-/* Media query para teléfonos MUY PEQUEÑOS móviles SM XS */
-@media only screen and (max-width: 490px) {
-          .section6-de-mi {
-                    background-color: var(--negro);
-                    height: 650px;
-                    width: 100%;
+ @media only screen and (max-width: 490px) {
+           .section6-de-mi {
+                     background-color: var(--negro);
+                     height: 650px;
+                     width: 100%;
 
-                    margin-top: -250px;
-                    padding: 60px 0 50px 0;
+                     margin-top: -250px;
+                     padding: 60px 0 50px 0;
 
-                    border-radius: 50% 50% 0 0;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
+                     border-radius: 50% 50% 0 0;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: space-around;
+                     align-items: center;
+                     box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
 
-                    /*  box-shadow: 0 0 20px var(--color-borde); difumina una sombra alrededor del color seleccionado */
-                    box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
-                    /* difuminado externo */
-
-                    overflow-x: hidden;
-          }
+                     overflow-x: hidden;
+           }
 
 
-          .sobre-mi-texto {
-                    width: 88%;
-                    color: var(--blanco);
-                    text-align: justify;
-          }
+           .sobre-mi-texto {
+                     width: 88%;
+                     color: var(--blanco);
+                     text-align: justify;
+           }
 
-          .sobre-mi-enlaces {
-                    height: 40px;
-                    width: 80%;
+           .sobre-mi-enlaces {
+                     height: 40px;
+                     width: 80%;
 
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-          }
-}
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-around;
+                     align-items: center;
+           }
+ }
 
-/* Media query para teléfonos STANDAR móviles SM XS */
-@media only screen and (min-width: 491px) and (max-width: 795px) {
-          .section6-de-mi {
-                    background-color: var(--negro);
-                    height: 650px;
-                    width: 95%;
+ @media only screen and (min-width: 491px) and (max-width: 795px) {
+           .section6-de-mi {
+                     background-color: var(--negro);
+                     height: 650px;
+                     width: 95%;
 
-                    margin-top: -250px;
-                    margin-left: 5%;
-                    padding: 60px 0 50px 0;
+                     margin-top: -250px;
+                     margin-left: 5%;
+                     padding: 60px 0 50px 0;
 
-                    border-radius: 50% 50% 0 0;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-
-                    /*  box-shadow: 0 0 20px var(--color-borde); difumina una sombra alrededor del color seleccionado */
-                    box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
-                    /* difuminado externo */
-
-                    overflow-x: hidden;
-          }
+                     border-radius: 50% 50% 0 0;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: space-around;
+                     align-items: center;
+                     box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
+                     overflow-x: hidden;
+           }
 
 
-          .sobre-mi-texto {
-                    width: 80%;
-                    margin-left: 2%;
-                    color: var(--blanco);
-                    text-align: justify;
-          }
+           .sobre-mi-texto {
+                     width: 80%;
+                     margin-left: 2%;
+                     color: var(--blanco);
+                     text-align: justify;
+           }
 
-          .sobre-mi-enlaces {
-                    height: 40px;
-                    width: 80%;
+           .sobre-mi-enlaces {
+                     height: 40px;
+                     width: 80%;
 
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-          }
-}
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-around;
+                     align-items: center;
+           }
+ }
 
-/* Media query para tabletas MD */
-@media only screen and (min-width: 796px) and (max-width:991px) {
-          .section6-de-mi {
-                    background-color: var(--negro);
-                    height: 550px;
-                    width: 100%;
+ @media only screen and (min-width: 796px) and (max-width:991px) {
+           .section6-de-mi {
+                     background-color: var(--negro);
+                     height: 550px;
+                     width: 100%;
 
-                    margin-top: -220px;
-                    padding: 60px 0 50px 0;
+                     margin-top: -220px;
+                     padding: 60px 0 50px 0;
 
-                    border-radius: 55% 55% 0 0;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-
-                    /*  box-shadow: 0 0 20px var(--color-borde); difumina una sombra alrededor del color seleccionado */
-                    box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
-                    /* difuminado externo */
-                    overflow: hidden;
-          }
+                     border-radius: 55% 55% 0 0;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: space-around;
+                     align-items: center;
+                     box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
+                     overflow: hidden;
+           }
 
 
-          .sobre-mi-texto {
-                    width: 70%;
-                    color: var(--blanco);
-                    font-size: 18px;
-                    text-align: justify;
-          }
+           .sobre-mi-texto {
+                     width: 70%;
+                     color: var(--blanco);
+                     font-size: 18px;
+                     text-align: justify;
+           }
 
-          .sobre-mi-enlaces {
-                    height: 40px;
-                    width: 30%;
+           .sobre-mi-enlaces {
+                     height: 40px;
+                     width: 30%;
 
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-          }
-}
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-around;
+                     align-items: center;
+           }
+ }
 
-/* Media query para dispositivos de escritorio LG */
-@media only screen and (min-width: 992px) {
+ @media only screen and (min-width: 992px) {
 
-          .section6-de-mi {
-                    background-color: var(--negro);
-                    height: 550px;
-                    width: 100%;
+           .section6-de-mi {
+                     background-color: var(--negro);
+                     height: 550px;
+                     width: 100%;
 
-                    margin-top: -220px;
-                    padding: 60px 0 50px 0;
+                     margin-top: -220px;
+                     padding: 60px 0 50px 0;
 
-                    border-radius: 55% 55% 0 0;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-
-                    /*  box-shadow: 0 0 20px var(--color-borde); difumina una sombra alrededor del color seleccionado */
-                    box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
-                    /* difuminado externo */
-                    overflow: hidden;
-          }
+                     border-radius: 55% 55% 0 0;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: space-around;
+                     align-items: center;
+                     box-shadow: 0px 0px 80px 20px rgb(156, 218, 253);
+                     overflow: hidden;
+           }
 
 
-          .sobre-mi-texto {
-                    width: 70%;
-                    color: var(--blanco);
-                    text-align: justify;
-          }
+           .sobre-mi-texto {
+                     width: 70%;
+                     color: var(--blanco);
+                     text-align: justify;
+           }
 
-          .sobre-mi-enlaces {
-                    height: 40px;
-                    width: 30%;
+           .sobre-mi-enlaces {
+                     height: 40px;
+                     width: 30%;
 
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-          }
-}
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-around;
+                     align-items: center;
+           }
+ }
