@@ -177,7 +177,7 @@
 
     .section2-galeria-proyectos {
        background-color: var(--negro);
-       height: 1100px;
+       height: 1200px;
        width: 100%;
        border-top: 2px var(--gris-oscuro) solid;
        padding: 60px 0 50px 0;
@@ -200,10 +200,10 @@
 
     .cont-4proyectos {
        background-color: #19191B;
-       height: 980px;
+       height: 1050px;
        width: 90%;
        margin-left: 5%;
-       padding: 20px;
+       padding: 20px 0px;
        border-radius: 15px;
        display: flex;
        flex-direction: row;
@@ -219,8 +219,8 @@
     .proyecto3,
     .proyecto4 {
        background-color: #2e2e33;
-       height: 395px;
-       width: 40%;
+       height: 470px;
+       width: 46%;
     }
 
     .proyecto-descripcion li {
