@@ -190,10 +190,10 @@
         backend y metodologías de integración. Estando siempre informada de las últimas tecnologías.</p>
     </div>
     <div class="sobre-mi-enlaces">
-      <a href="https://www.youtube.com/@f-u-t-u-r-o-s-a-n-d-r-a" target="_blank"><i
-        class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;"></i></a>
+      <a href="https://www.youtube.com/@f-u-t-u-r-o-s-a-n-d-r-a" target="_blank"><i class="fa-brands fa-youtube fa-2xl"
+          style="color: #ff0000;"></i></a>
       <a href="https://www.linkedin.com/in/sandra-lopez-creativa/" target="_blank"><i
-        class="fa-brands fa-linkedin fa-2xl" style="color: #0091ff;"></i></a>
+          class="fa-brands fa-linkedin fa-2xl" style="color: #0091ff;"></i></a>
       <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-2xl"
           style="color: #ffffff;"></i></a>
     </div>
@@ -427,14 +427,17 @@
         </div>
       </div>
       <div class="formulario">
-        <form class="form-contacto" action="enviar.php" method="post">
+        <form action="https://formsubmit.co/sandra.lopez.game@gmail.com" method="POST">
           <p class="pacifico-regular">Puedes mandarme un mensaje llenando este formulario. </p>
           <input type="text" id="nombre" name="nombre" placeholder="Nombre" value="" required>
           <input type="text" id="email" name="email" placeholder="Email" value="" required>
-          <textarea name="mensaje" class="mensaje" id="mensaje" cols="30" rows="10" placeholder="Introduce tu mensaje" required></textarea>
+          <textarea name="mensaje" class="mensaje" id="mensaje" cols="30" rows="10" placeholder="Introduce tu mensaje"
+            required></textarea>
           <div class="btn-formulario">
-            <button class="btn-enviar" type="submit">Enviar</button>
+            <button class="btn-enviar" type="submit" value="Enviar">Enviar</button>
           </div>
+          <input type="hidden" name="_next" value="">
+          <input type="hidden" name="_captcha" value="false">
         </form>
       </div>
     </div>
