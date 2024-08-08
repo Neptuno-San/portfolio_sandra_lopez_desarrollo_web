@@ -202,7 +202,7 @@
 
 
     .cont-4proyectos {
-       background-color: #19191B;
+       background-color: #18181a;
        height: 1300px;
        width: 90%;
        margin-left: 5%;
@@ -221,7 +221,7 @@
     .proyecto2,
     .proyecto3,
     .proyecto4 {
-       background-color: #2e2e33;
+       background-color: #484850;
        height: 600px;
        width: 46%;
        display: flex;
@@ -243,23 +243,23 @@
     font-size: 20px;
     font-weight: bold;
  }
-
+/*
  .proyecto1 {
-    box-shadow: 10px 8px 10px rgb(223, 226, 49);
+    box-shadow: 4px 3px 4px rgb(139, 139, 137);
  }
 
  .proyecto2 {
-    box-shadow: 10px 8px 10px rgb(55, 214, 46);
+   box-shadow: 4px 3px 4px rgb(139, 139, 137);
  }
 
  .proyecto3 {
-    box-shadow: 10px 8px 10px rgb(228, 38, 48);
+   box-shadow: 4px 3px 4px rgb(139, 139, 137); 
  }
 
  .proyecto4 {
-    box-shadow: 10px 8px 10px rgb(216, 105, 197);
+   box-shadow: 4px 3px 4px rgb(139, 139, 137);
  }
-
+*/
 
  .proyecto-archivo {
     height: 40%;
